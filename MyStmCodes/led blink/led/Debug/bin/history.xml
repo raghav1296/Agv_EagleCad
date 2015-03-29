@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=led.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\led -TC:\CooCox\CoIDE\configuration\ProgramData\led/arm-gcc-link.ld -g">
+      <target file="led.elf" lastModified="14c66916386">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="14c66915dec"/>
+         <source file="..\obj\main.o" lastModified="14c66915e78"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="14c66915f97"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="14c6691603e"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="14c669160b5"/>
+         <source file="..\obj\syscalls.o" lastModified="14c6691614b"/>
+      </target>
+   </processor>
+</history>
